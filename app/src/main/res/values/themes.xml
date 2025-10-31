@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.QRCodeScannerExample" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here -->
+    </style>
+
+    <!-- App Theme (reference the base theme) -->
+    <style name="Theme.QRCodeScannerExample" parent="Base.Theme.QRCodeScannerExample" />
+    <!-- NoActionBar variant for full-screen or custom activities -->
+    <style name="Theme.QRCodeScannerExample.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>
